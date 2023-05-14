@@ -1,0 +1,36 @@
+/*dz1*/
+.main_block{
+  background-color: black;
+  width: 500px;
+  height: 500px;
+  position: relative;
+}
+
+.mini_block{
+  width: 50px;
+  height: 50px;
+  background-color: grey;
+  position: absolute;
+}
+
+
+/*dz2*/
+.div {
+  width: 100vw;
+  display: flex;
+  justify-content: space-around;
+}
+.button {
+  width: 100px;
+  height: 100px;
+  font-size: 25px;
+  border: 5px;
+  border-radius: 50%;
+  color: black;
+  transition: 0.3s;
+}
+button:hover {
+  transform: scale(2);
+  cursor: pointer;
+  border-radius: 50%;
+}
